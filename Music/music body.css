@@ -1,0 +1,39 @@
+.music-text {
+    position: absolute;
+    left: 360px;
+    top: 60px;
+    font-size: 40px;
+    display: inline-block;
+}
+.music-main-container{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    top:150px;
+    left:440px;
+    width:760px;
+
+}
+.music--label-container {
+  display:flex; 
+  flex-direction:column;
+  margin-bottom:12px;
+
+    
+}
+.music-container {
+    padding-left: 40px;
+    padding-top: 6px;
+}
+.musics{
+    width:720px;
+    height:45px;
+}
+label{
+    color:white;
+    font-size:20px;;
+    font-family:Arial;
+    font-style:italic;
+
+
+}

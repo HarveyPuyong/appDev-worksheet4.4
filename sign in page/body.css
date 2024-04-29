@@ -1,0 +1,32 @@
+/*
+body {
+	background-image: url('your name.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	place-content: center;
+}
+*/
+body{
+	background-image: url('your name.jpg');
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display:grid;
+	font-family: Arial, Helvetica, sans-serif;
+}
+p{
+	margin:0;
+	color:white;
+	display:inline-block;
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+p{
+    color:white;
+    font-family:Arial;
+    margin:0;
+}

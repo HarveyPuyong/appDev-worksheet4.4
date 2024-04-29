@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sign your account</title>
+		<link rel="stylesheet" href="body.css"/>
+		<link rel="stylesheet" href="container.css" />
+	</head>
+	<body>
+		<label for="log-in-form" class="form-label">LOG IN</label>
+			<div id="log-in-form" class="main-container">
+				<div class="email-pass-container">
+					<div class="email-container">
+						<label for="email">Email</label><br />
+						<input onkeydown="onEnter(event)"
+							 class="js-input-email email-password-input" type="email"
+							  placeholder="Enter your email" required 
+						  />  <br>
+						 <p class="invalid-email-text"></p>					
+					</div>
+					<div class="password-container">
+						<label for="passwiord">Password</label><br />
+						<input onkeydown="onEnter(event)" 
+							class="js-input-password email-password-input" type="password"
+							 placeholder="Enter your password" required
+						 />	<br>
+						 <p class="invalid-password-text"></p>
+					</div>
+				</div>
+
+				<!--Remember and show password container-->
+				<div class="mid">
+					<div class="remember-container">
+						<input class="remember-me-checkbox" type="checkbox" /> 
+						<label class="remember-me-label" for=" remember me">Remember me</label>
+					</div>
+					<div class=showpassword-container>
+						<input class="show-password-checkbox" type="checkbox"/>
+						<label class="showpassword-label">Show password</label>
+					</div>
+				</div>
+
+				<!--Button Container-->
+				<div class="button-container">
+					<a href="../Home/home.html"> <button class="log-in-button">Log in</button>  </a>
+					
+
+				</div>
+			</div>
+			<!--<img id="arrow" src="arrow.png" />-->    
+	</body>
+</html>

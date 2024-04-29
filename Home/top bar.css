@@ -1,0 +1,67 @@
+.top-bar {
+    height: 37px;
+    display: flex;
+    background-color: #a6a6a8;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.button-container{
+    width:75px;
+    margin-left:15px;
+    
+}
+button {
+    background-color: gold;
+    transition:0.3s;
+    height:25px;
+    border:1px solid rgba(0, 0, 0, 0.603);
+} 
+    button:hover{
+        background-color:white;
+        padding:2px 7px 2px 7px;
+    }
+    button:active{
+       border:1px solid silver;
+    }
+
+.about{
+    width:50px;
+    position:relative;  
+    cursor:pointer;
+    right:3px;
+    
+}
+.about-text {
+    font-size: 18px;    
+    color:black;
+    transition:0.2s;
+}
+    .about-text:hover{
+        color:white;
+    }
+    .about-text:active{
+        color:silver;
+    }
+.services{
+    position:relative;
+    right:23px;
+    transition:0.3s
+}
+.services-text {
+    font-size: 18px;
+    color:black;
+    cursor:pointer;
+
+}
+    .services-text:hover{
+        color:white;
+    }
+    .services-text:active {
+        color:silver;
+    }

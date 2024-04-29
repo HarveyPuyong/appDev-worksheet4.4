@@ -1,0 +1,77 @@
+.side-bar {
+    position: fixed;
+    background-color: #cacaca;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+      
+}
+
+.bean-container{
+    position:relative;
+    height:120px;
+    margin-bottom:25px;
+}
+.bean-side{
+    position:absolute;
+    width:90px;
+    right:25px;
+    top:10px;
+    border-radius:1px;
+}
+.bean-inc{
+    font-style:italic;
+    position:absolute;
+    top:102px;
+    right:39px;
+    color:gray;
+}
+
+hr {
+    position: relative;
+    color: black;
+}
+
+
+.navigation-container{
+    padding-top:30px;
+    text-align:center;    
+}
+#music,
+#home,
+#image,
+#video{
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    border-radius:5px;
+    
+}
+.side-navigation{
+    text-decoration:none;
+    color:black;
+    font-size:25px;
+    font-family:Arial;
+    line-height:55px;
+    display:block; 
+    transition:0.4s;
+    }
+    .side-navigation:hover {
+        background-color: black;
+        color: silver;
+        border-radius:8px;
+        font-size:21px;
+    }
+    .side-navigation:active {
+        background-color: black;
+        color: white;
+        font-size: 26px;
+        border-radius: 8px;
+    }
+
+
+
+

@@ -1,0 +1,26 @@
+.container{
+    border:1px solid white;
+    display:inline-block;
+    position:relative;
+    left:630px;
+    top:125px;
+    
+}
+.image {
+    width: 390px;
+}
+.home-text{
+    position:absolute;
+    left:360px;
+    top:60px;
+    font-size:40px;
+    display:inline-block;
+}
+.profile-name{
+    font-size:25px;
+    font-style:italic;
+    position:relative;
+    left:160px;
+}
+
+
